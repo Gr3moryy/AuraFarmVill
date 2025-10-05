@@ -4,12 +4,84 @@ body{
 
 header{ 
     background-color: #F5E9D3;
-    border-bottom: solid 1px ;
-    border-color: #C4A484;
+    border-bottom: 1px solid #C4A484;
     height: 70px;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 0px;
     font-family: Arial, sans-serif;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 }
+
+.logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.sideicon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    position: sticky;
+}
+
+#icon1{
+    background-color: #75491C;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+#icon2{
+    background-color: #75491C;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+#icon3{
+    background-color: #75491C;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+#icon4{
+    background-color: #75491C;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+#icon5{
+    background-color: #75491C;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+.main-content{
+    margin-left: 80px;
+    padding: 50px;
+    background-color: #F5E9D3;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
