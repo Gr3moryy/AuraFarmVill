@@ -20,13 +20,11 @@ header{
 }
 
 .sideicon{
-    /* make the sidebar a fixed vertical column on the left so icons stay visible
-       and the last icon can be pushed to the bottom with margin-top: auto */
     position: fixed;
     left: 0;
-    top: 70px; /* sit below the header */
+    top: 70px; 
     bottom: 0;
-    width: 70px; /* a little wider to give breathing room */
+    width: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +79,7 @@ header{
     width: 50px;
     height: 50px;
     padding: 4px;
-    margin-top: auto; /* pushes this icon to the bottom of the sidebar */
+    margin-top: auto; 
     margin-bottom: 10px;
 }
 
