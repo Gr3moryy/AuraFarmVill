@@ -3,25 +3,14 @@ body{
 }
 
 header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
     background-color: #F5E9D3;
     border-bottom: 1px solid #C4A484;
     height: 70px;
-    display: flex;
-    align-items: center;
-    padding-left: 0px;
     font-family: Arial, sans-serif;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.side-container{
-    background-color:#F5E9D3;
-    position: fixed;
-    top: 100px; 
-    bottom: 70px;
-    width: 70px;
-    position: fixed;
-    border-radius: 10px;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,10 +20,31 @@ header{
     margin-left: 20px;
 }
 
+.profile-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.side-container{
+    background-color:#F5E9D3;
+    position: fixed;
+    top: 200px; 
+    bottom: 300px;
+    width: 70px;
+    height: 450px;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 .sidenav{
     position: fixed;
     left: 0;
-    top: 70px; 
+    top: 200px; 
     bottom: 0;
     width: 70px;
     display: flex;
@@ -45,7 +55,7 @@ header{
     background: transparent;
 }
 
-#icon1{
+.sidenav img {
     background-color: #75491C;
     border-radius: 10px;
     width: 50px;
@@ -53,6 +63,22 @@ header{
     margin-top: 50px;
     margin-bottom: 10px;
     padding: 4px;
+    cursor: pointer;
+}
+
+#icon1{
+    background-color: #75491C;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#icon1:hover{
+    background-color: #4B2E1E;
 }
 
 #icon2{
@@ -61,8 +87,13 @@ header{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 4px;
+    cursor: pointer;
+}
+
+#icon2:hover{
+    background-color: #4B2E1E;
 }
 
 #icon3{
@@ -71,8 +102,13 @@ header{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 4px;
+    cursor: pointer;
+}
+
+#icon3:hover{
+    background-color: #4B2E1E;
 }
 
 #icon4{
@@ -80,19 +116,14 @@ header{
     border-radius: 10px;
     width: 50px;
     height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     padding: 4px;
+    margin-top: 60px; 
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
-#icon5{
-    background-color: #75491C;
-    border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    padding: 4px;
-    margin-top: auto; 
-    margin-bottom: 90px;
+#icon4:hover{
+    background-color: #4B2E1E;
 }
 
 .main-content{
@@ -104,4 +135,5 @@ header{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
 }
+
 
