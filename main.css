@@ -11,6 +11,19 @@ header{
     padding-left: 0px;
     font-family: Arial, sans-serif;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.side-container{
+    background-color:#F5E9D3;
+    position: fixed;
+    left: 10px;
+    top: 100px; 
+    bottom: 10px;
+    width: 70px;
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo{
@@ -19,7 +32,7 @@ header{
     margin-left: 20px;
 }
 
-.sideicon{
+.sidenav{
     position: fixed;
     left: 0;
     top: 70px; 
