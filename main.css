@@ -17,9 +17,8 @@ header{
 .side-container{
     background-color:#F5E9D3;
     position: fixed;
-    left: 10px;
     top: 100px; 
-    bottom: 10px;
+    bottom: 70px;
     width: 70px;
     position: fixed;
     border-radius: 10px;
@@ -52,7 +51,7 @@ header{
     width: 50px;
     height: 50px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 4px;
 }
 
@@ -62,7 +61,7 @@ header{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 4px;
 }
 
@@ -72,7 +71,7 @@ header{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 4px;
 }
 
@@ -82,7 +81,7 @@ header{
     width: 50px;
     height: 50px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 4px;
 }
 
@@ -93,7 +92,7 @@ header{
     height: 50px;
     padding: 4px;
     margin-top: auto; 
-    margin-bottom: 10px;
+    margin-bottom: 90px;
 }
 
 .main-content{
